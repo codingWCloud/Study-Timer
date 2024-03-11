@@ -23,7 +23,6 @@ body {
     width: 300px;
     height: 300px;
     overflow-y: auto;
-    max-height: 300px;
     scroll-behavior: auto;
 }
 
@@ -67,4 +66,10 @@ button:hover {
 .bigContainer {
     display: flex;
     justify-content: space-between;
+}
+
+.miniContainer {
+    overflow-y: auto;
+    scroll-behavior: auto;
+    width: 200px;
 }
